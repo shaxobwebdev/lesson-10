@@ -1,0 +1,455 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+span {
+  color: aqua;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f8fa;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+header {
+  max-width: 1140px;
+  margin: 0 auto;
+  border: 1px solid #00000033;
+  margin-bottom: 25px;
+}
+sup {
+  color: #01bab3;
+  font-size: 16px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.trend_section img {
+  padding-top: 40px;
+}
+
+.trend_section h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 39px;
+  padding: 24px 0 16px 0;
+}
+
+.login-span a {
+  color: #01bab3;
+}
+
+.login-span {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-bottom: 56px;
+}
+
+.signin-div {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.first-div input {
+  width: 180px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  max-width: 1240px;
+  /* margin: 0 auto; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar_list {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+ul {
+  display: flex;
+
+  list-style: none;
+  /* background-color: #01bab3; */
+  gap: 50px;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.navbar_links a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.navbar_btn button {
+  margin: 0 25px;
+  background-color: #fff;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.trend_section {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+}
+
+.birth-div sub {
+  color: #01bab3;
+}
+.birth-div input {
+  width: 375px;
+  border-radius: 4px;
+}
+
+.item-div {
+  text-align: center;
+}
+
+.item-div h1 {
+  font-size: 29px;
+  line-height: 39px;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 25px;
+}
+
+.item-div h3 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444150;
+}
+
+.item-div span {
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #01bab3;
+}
+
+.content {
+  background-color: white;
+  width: 600px;
+  border-radius: 20px;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px 30px 30px;
+  /* gap: 20px; */
+}
+
+#ss {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 80px;
+  flex-direction: row;
+}
+
+.item-1 img {
+  margin-left: 100px;
+}
+
+.log {
+  padding: 25px;
+}
+
+.log span {
+  margin: 5px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #01bab3;
+}
+
+.int label {
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+.margin-1 {
+  padding-bottom: 10px;
+}
+
+input {
+  padding: 12px 0px 14px 10px;
+  border-radius: 6px;
+  color: #444150;
+  width: 175px;
+}
+.cont {
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.cont input {
+  padding-right: 100px;
+  width: 375px;
+  height: 48px;
+}
+
+.form-check {
+  display: flex;
+  flex-direction: row;
+  width: 180px;
+  height: 46px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+}
+
+.form-check:focus {
+  border: 2px solid aqua;
+}
+
+.radio-div {
+  display: flex;
+  gap: 16px;
+}
+.radio-div input {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.form-check-label {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  outline: none;
+  gap: 16px;
+  border: 2px solid #000;
+  width: 180px;
+  height: 46px;
+  border-radius: 4px;
+}
+.skype label {
+  display: flex;
+  flex-direction: column;
+}
+
+.skype label input {
+  width: 375px;
+  height: 48px;
+}
+.promo label {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo label input {
+  width: 375px;
+  height: 48px;
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+.btn {
+  width: 375px;
+  height: 40px;
+  background-color: #01bab3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 0;
+  margin-top: 24px;
+  color: white;
+  gap: 16px;
+}
+
+.btn img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login p {
+  padding: 40px;
+}
+
+/* ----- hedet--------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f8fa;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.login p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+/* .wrapper {
+  text-align: center;
+} */
+
+.label-email strong {
+  display: flex;
+  flex-direction: column;
+}
+.email-div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.label-email input {
+  font-size: 16px;
+  line-height: 24px;
+  color: #d9d9d9;
+  width: 375px;
+  height: 48px;
+  margin-top: 15px;
+}
+
+.label-phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-phone input {
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  width: 375px;
+  height: 48px;
+}
+
+.country-div {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+}
+.label-country {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+  width: 150px;
+  height: 48px;
+  margin-right: 50px;
+}
+.label-city {
+  display: flex;
+  flex-direction: column;
+}
+#select {
+  padding: 12px 0;
+  border-radius: 5px;
+  border: 1px solid #444150;
+}
+
+.label-country strong {
+  width: 185px;
+  padding-left: 5px;
+  color: #000;
+}
+
+.label-password {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-password input {
+  width: 375px;
+  height: 48px;
+}
+
+.label-confirm {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-confirm input {
+  width: 375px;
+  height: 48px;
+}
+
+.code {
+  margin-bottom: 10px;
+}
+
+.span p {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #778699;
+}
+
+/* -----fiyogo--- */
+
+.account {
+  display: flex;
+  flex-direction: column;
+}
+
+.account label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+.account input {
+  width: 375px;
+  height: 48;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+.have {
+  display: flex;
+  flex-direction: column;
+}
+
+.have label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}
+
+.have input {
+  width: 375px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444150;
+}

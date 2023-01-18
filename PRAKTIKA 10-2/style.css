@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(120.21deg, #3e708e 11.18%, #64969b 74.17%);
+}
+
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+}
+.title {
+  background: linear-gradient(162.21deg, #517879 4.83%, #1e3e57 103.44%);
+  position: relative;
+  width: 653px;
+  height: 1024px;
+}
+.link-div {
+  display: flex;
+  gap: 24px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+.link-div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.title1 {
+  position: absolute;
+  width: 431px;
+  height: 288px;
+  left: 2px;
+  top: 4px;
+  top: 303px;
+  left: 103px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  color: #fff;
+  opacity: 0.1;
+}
+
+.title2 {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  width: 431px;
+  height: 288px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  color: #fff;
+  display: flex;
+}
+
+.list-title {
+  position: absolute;
+  top: 600px;
+  left: 110px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  list-style: none;
+}
+
+.list-title span {
+  padding-right: 5px;
+}
+
+.wrapper {
+  background-color: #fff;
+}
+.bg {
+  width: 787px;
+  height: 1024px;
+  background-image: url(./images/Stroke\ 5.png);
+  background-size: 790.8px;
+  background-repeat: no-repeat;
+  opacity: 1;
+  /* transform: matrix(0.98, -0.19, -0.19, -0.98, 0, 0); */
+}
+.link {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: linear-gradient(
+    93.38deg,
+    #496f74 -3.47%,
+    #6e9195 35.61%,
+    #2d4f61 84.29%
+  );
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+/* ----- jasurdi kodi------ */
+
+.form-1 {
+  width: 400px;
+  margin: 0 auto;
+}
+.run a {
+  display: flex;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-size: 24px;
+  line-height: 24px;
+  background: linear-gradient(
+    93.38deg,
+    #496f74 -3.47%,
+    #6e9195 35.61%,
+    #2d4f61 84.29%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.run h1 {
+  padding-top: 80px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  padding: 50px;
+}
+
+.form-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.name-div label,
+.emal-div label,
+.phone-div label,
+.pasword-div label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 290px;
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+.name-div label {
+  margin-right: 310px;
+}
+.name-div input,
+.emal-div input,
+.phone-div input,
+.pasword-div input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  border: 1px solid gray;
+}
+
+.titles {
+  color: #cccccc;
+  text-align: start;
+}
+
+.p2 {
+  margin-bottom: 53px;
+}
+
+.locition-div {
+  display: flex;
+  flex-direction: column;
+}
+.locition-div input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid grey;
+  outline: none;
+}
+.locition-div label {
+  margin-right: 300px;
+  padding-bottom: 4px;
+}
+.btn {
+  margin: 32px 0px;
+  width: 400px;
+  height: 40px;
+  color: white;
+  background-color: #27485d;
+  border-radius: 4px;
+  border: 1px solid #284a5e;
+  box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.login h2 {
+  font-size: 16px;
+  color: #c4c4c4;
+}
+.login a {
+  color: #476d73;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.header a {
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  padding-left: 40px;
+  font-size: 24px;
+  line-height: 24px;
+  color: linear-gradient(
+    93.38deg,
+    #496f74 -3.47%,
+    #6e9195 35.61%,
+    #2d4f61 84.29%
+  );
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.about a {
+  color: #24445b;
+  font-size: 14px;
+  font-weight: 700;
+}
+.titleH1 {
+  margin-bottom: 40px;
+}

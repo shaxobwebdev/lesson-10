@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  width: 360px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #288fb4;
+}
+
+.content {
+}
+
+.content h4 {
+  padding: 15px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #030102;
+}
+.div-info {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name-div input {
+  display: flex;
+}
+.number-div input {
+  display: flex;
+}
+.lang {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.lung {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.lung-div {
+  width: 144px;
+}
+.lang input {
+  width: 300px;
+  height: 40px;
+}
+
+.name-div input {
+  color: #030102;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.number-div input {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.lung-div input {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.zip-div input {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+#number {
+  width: 300px;
+  height: 40px;
+  background-color: #e2e6ee;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+}
+
+.lung input {
+  width: 144px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 8px, 12px, 8px, 12px;
+  background-color: #e2e6ee;
+  border: none;
+  outline: none;
+  padding-left: 13px;
+}
+.zip-div input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e6ee;
+  border: 1px solid #000;
+}
+.btn-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.btn {
+  width: 300px;
+  height: 40px;
+  background-color: #288fb4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 12px, 24px, 12px, 24px;
+  color: white;
+  border: none;
+}
+p {
+  text-align: center;
+  padding-bottom: 20px;
+}
